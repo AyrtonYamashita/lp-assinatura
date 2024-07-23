@@ -1,4 +1,5 @@
 .button {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,6 +8,7 @@
   border-radius: 0.5rem;
   color: var(--text-title);
   font: var(--bold) 0.875rem/normal var(--ff-base);
+  overflow: hidden;
 }
 
 .btn-pink {
