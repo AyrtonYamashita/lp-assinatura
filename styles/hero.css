@@ -102,6 +102,8 @@ section.hero {
     & img {
       width: 5rem;
       scale: 0;
+      transition: transform .4s ease;
+
     }
 
     .first,
@@ -120,14 +122,14 @@ section.hero {
     }
     & img:nth-child(3) {
       margin-right: auto;
-      transform: rotate(95deg);
+      transform: rotate(85deg);
     }
     & img:nth-child(4) {
       position: absolute;
       margin-left: auto;
       top: 70%;
       left: 90%;
-      transform: rotate(-20deg);
+      rotate: -20deg;
     }
 
     &:hover {
@@ -158,6 +160,9 @@ section.hero {
         }
         animation: opacity-text 0.4s 1.5s ease forwards;
       }
+    }
+    & img:hover{
+      transform: rotate(20deg) scale(1.1);
     }
   }
 }
