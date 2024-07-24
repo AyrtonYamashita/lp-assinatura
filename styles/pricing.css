@@ -1,0 +1,15 @@
+section.pricing {
+ display: flex;
+ flex-direction: column; 
+ align-items: center;
+ position: relative;
+
+ &::after{
+  position: absolute;
+  content: "";
+  
+ }
+ h2 {
+  text-align: center;
+ }
+}
