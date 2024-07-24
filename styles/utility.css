@@ -26,3 +26,7 @@
 .blue-light{
   color: var(--blue-light);
 }
+
+.bold {
+  font-weight: var(--bold);
+}
