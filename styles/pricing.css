@@ -3,6 +3,7 @@ section.pricing {
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-bottom: 50rem;
   &::after {
     content: "";
     position: absolute;
@@ -11,8 +12,8 @@ section.pricing {
     background-image: url(../assets/images/pricing-background.png);
     background-position: center;
     background-size: cover;
-    z-index: -2;
-    animation: appearimg 4s 0.5s ease alternate-reverse infinite;
+    z-index: -3;
+    animation: appearimg 2s 0.5s ease alternate-reverse infinite;
     opacity: 0%;
   }
   & .blur {
@@ -23,6 +24,8 @@ section.pricing {
     border-radius: 50%;
     top: 0%;
     background-color: var(--shape-base);
+    animation: appearimg 2s 0.5s ease alternate-reverse infinite;
+    opacity: 0.5;
     filter: blur(300px);
     z-index: -1;
   }
@@ -36,10 +39,11 @@ section.pricing {
     justify-content: center;
     margin-top: 10rem;
     margin-inline: auto;
+    z-index: 0;
     & .card:nth-child(1) {
       transition: 0.4s ease;
       position: absolute;
-      z-index: 0;
+      z-index: 1;
       background-color: var(--shape-hover);
       & img[src*="bunny"] {
         position: absolute;
@@ -111,7 +115,7 @@ section.pricing {
       position: absolute;
       background-color: var(--shape-base);
       border: 2px solid var(--shape-hover);
-      z-index: -1;
+      z-index: 0;
       & .stars {
         & img {
           transition: 0.4s ease;

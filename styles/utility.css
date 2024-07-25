@@ -7,7 +7,7 @@
   height: 2.5rem;
   border-radius: 0.5rem;
   color: var(--text-title);
-  font: var(--bold) 0.875rem/normal var(--ff-base);
+  font: var(--bold) 0.875rem / normal var(--ff-base);
   overflow: hidden;
 }
 
@@ -23,12 +23,12 @@
   width: 100%;
 }
 
-.btn-lg{
+.btn-lg {
   width: 14rem;
   height: 2.5rem;
 }
 
-.blue-light{
+.blue-light {
   color: var(--blue-light);
 }
 
@@ -54,7 +54,4 @@
   font: 700 0.625rem/1.25 var(--ff-base);
   border-radius: 999px;
   text-transform: uppercase;
-  
 }
-
-
