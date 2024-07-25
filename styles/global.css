@@ -70,10 +70,14 @@ h2 {
   font: var(--title-sm);
 }
 
-
 a {
   font: var(--medium) .75rem/normal var(--ff-base);
   text-decoration: none;
   color: inherit;
+}
+
+ul li{
+  list-style: none;
+  
 }
 
